@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josefin Sans — Specimen Interactivo</title>
+
+  <!-- Google Fonts: Josefin Sans Variable -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles6.css">
+</head>
+<body>
+
+  <div class="tag-fijo">
+    Josefin Sans
+  </div>
+
+  <!-- Marquee Infinito Superior -->
+  <div class="marquee-container">
+    <div class="marquee-content">
+      <span>GEOMETRIC SANS SERIF</span> • <span>SANTIAGO OROZCO (2010)</span> • <span>VINTAGE SWEDEN INSPIRATION</span> • <span>VARIABLE FONT SYSTEM</span> • 
+      <span>GEOMETRIC SANS SERIF</span> • <span>SANTIAGO OROZCO (2010)</span> • <span>VINTAGE SWEDEN INSPIRATION</span> • <span>VARIABLE FONT SYSTEM</span> • 
+    </div>
+  </div>
+
+  <main class="hero">
+
+    <!-- Bloque Estático y Type Tester Interactivo -->
+    <header class="bloque-estatico">
+      <p class="antetitulo">SISTEMA DE POSICIONES & VARIACIONES</p>
+      <h1 class="titulo">JOSEFIN SANS</h1>
+      
+      <p class="explicacion">
+        Pasa el cursor sobre las tarjetas para explorar los especímenes o interactúa con el probador tipográfico en vivo a continuación.
+      </p>
+
+      <!-- Panel de Control Interactivo -->
+      <div class="tester-panel">
+        <div class="tester-controls">
+          <label for="weightSlider">Grosor de Fuente (<span id="weightVal">400</span>):</label>
+          <input type="range" id="weightSlider" min="100" max="700" step="100" value="400">
+        </div>
+        <div class="tester-input-wrapper">
+          <input type="text" id="typeTester" value="Escribe algo aquí..." spellcheck="false">
+        </div>
+      </div>
+    </header>
+
+    <!-- Grilla de Tarjetas -->
+    <div class="grilla-tarjetas">
+
+      <!-- Tarjeta 1: FINOS -->
+      <div class="tarjeta-flip">
+        <div class="tarjeta-inner">
+          <div class="tarjeta-cara tarjeta-front">
+            <span class="numero-seccion">01</span>
+            
+            <div class="stage">
+              <div class="ventana">
+                <span class="glifo" style="--peso: 100;">J</span>
+              </div>
+              <div class="ventana">
+                <span class="glifo" style="--peso: 100;">J</span>
+              </div>
+            </div>
+
+            <p class="indicador-hover">Pasa el cursor para ver pesos →</p>
+            <div class="caja-absoluta-1">FINOS</div>
+          </div>
+
+          <div class="tarjeta-cara tarjeta-back">
+            <p class="label-seccion">01. FINOS (LIGHTS)</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">100</span>
+              <span class="especimen-peso" style="--peso: 100;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Thin 100</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">200</span>
+              <span class="especimen-peso" style="--peso: 200;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">ExtraLight 200</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">300</span>
+              <span class="especimen-peso" style="--peso: 300;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Light 300</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 2: MEDIOS -->
+      <div class="tarjeta-flip">
+        <div class="tarjeta-inner">
+          <div class="tarjeta-cara tarjeta-front">
+            <span class="numero-seccion">02</span>
+            
+            <div class="stage">
+              <div class="ventana">
+                <span class="glifo" style="--peso: 400;">O</span>
+              </div>
+              <div class="ventana">
+                <span class="glifo" style="--peso: 400;">O</span>
+              </div>
+            </div>
+
+            <p class="indicador-hover">Pasa el cursor para ver pesos →</p>
+            <div class="caja-absoluta-1">MEDIOS</div>
+          </div>
+
+          <div class="tarjeta-cara tarjeta-back">
+            <p class="label-seccion">02. MEDIOS (REGULARS)</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">400</span>
+              <span class="especimen-peso" style="--peso: 400;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Regular 400</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">500</span>
+              <span class="especimen-peso" style="--peso: 500;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Medium 500</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3: GRUESOS -->
+      <div class="tarjeta-flip">
+        <div class="tarjeta-inner">
+          <div class="tarjeta-cara tarjeta-front">
+            <span class="numero-seccion">03</span>
+            
+            <div class="stage">
+              <div class="ventana">
+                <span class="glifo" style="--peso: 700;">S</span>
+              </div>
+              <div class="ventana">
+                <span class="glifo" style="--peso: 700;">S</span>
+              </div>
+            </div>
+
+            <p class="indicador-hover">Pasa el cursor para ver pesos →</p>
+            <div class="caja-absoluta-2">GRUESOS</div>
+          </div>
+
+          <div class="tarjeta-cara tarjeta-back">
+            <p class="label-seccion">03. GRUESOS (BOLDS)</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">600</span>
+              <span class="especimen-peso" style="--peso: 600;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">SemiBold 600</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">700</span>
+              <span class="especimen-peso" style="--peso: 700;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Bold 700</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 4: ITÁLICAS -->
+      <div class="tarjeta-flip">
+        <div class="tarjeta-inner">
+          <div class="tarjeta-cara tarjeta-front">
+            <span class="numero-seccion">04</span>
+            
+            <div class="stage">
+              <div class="ventana">
+                <span class="glifo italica" style="--peso: 400;">E</span>
+              </div>
+              <div class="ventana">
+                <span class="glifo italica" style="--peso: 400;">E</span>
+              </div>
+            </div>
+
+            <p class="indicador-hover">Pasa el cursor para ver pesos →</p>
+            <div class="caja-absoluta-1">CURSIVAS</div>
+          </div>
+
+          <div class="tarjeta-cara tarjeta-back">
+            <p class="label-seccion">04. ITÁLICAS (ITALICS)</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">400</span>
+              <span class="especimen-peso italica" style="--peso: 400;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Regular Italic 400</p>
+
+            <div class="fila-pesos">
+              <span class="numero-peso">700</span>
+              <span class="especimen-peso italica" style="--peso: 700;">Lorem Ipsum</span>
+            </div>
+            <p class="nombre-peso">Bold Italic 700</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
